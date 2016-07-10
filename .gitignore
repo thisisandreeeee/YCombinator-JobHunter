@@ -1,0 +1,5 @@
+config.py
+*.csv
+*.pdf
+.DS_STORE
+__pycache__
