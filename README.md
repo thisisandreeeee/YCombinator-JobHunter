@@ -1,12 +1,12 @@
 # Job Hunter
 In the spring of 2016, I was looking for a one-year internship in Silicon Valley as a data science intern. The job search was long, arduous, and time-consuming. Little did I know I'd end up spending even more time writing a script trying to save a _little_ time. I'm making this script available to anyone wanting to adapt it for their own purposes.
 
+Tested to work on Python 3, and Crunchbase v3.
+
 ### Setup
-For the script to work you will need a [crunchbase API key](), as well as a gmail account. Then, create a file called `config.py` with the following format:
-```python
-auth1 = "your crunchbase API key"
-sender = "your gmail address"
-emailpass = "your gmail password"
+This script makes use of the [Crunchbase API](https://data.crunchbase.com/docs/using-the-api), as well as a gmail account. You will also need to create a file called `config.py`:
+```
+echo "auth1 = 'your crunchbase API key'\nsender = 'your gmail address'\nemailpass = 'your gmail password'" >> config.py
 ```
 
 ### Pseudocode
