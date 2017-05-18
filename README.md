@@ -1,5 +1,5 @@
 # Job Hunter
-In the spring of 2016, I was looking for a one-year internship in Silicon Valley as a data science intern. The job search was not only long and arduous, but very time-consuming as well. So, I decided to spend even more time writing a script to automate most of the process.
+In the spring of 2016, I was looking for a one-year internship in Silicon Valley as a data science intern. The job search was long, arduous, and time-consuming as well. Little did I know I'd end up spending even more time writing a script trying to save a _little_ time. I'm making this script available if anyone would like to adapt it for their own purposes.
 
 ### Setup
 For the script to work you will need a [crunchbase API key](), as well as a gmail account. Then, create a file called `config.py` with the following format:
